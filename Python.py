@@ -2,7 +2,6 @@ import os
 import json
 import pandas as pd
 import pyodbc
-from ast import literal_eval
 from pathlib import Path
 
 def query_db(query,one=False):
